@@ -6,7 +6,26 @@ class MainTabsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+        Expanded(
+          child: Container(),
+        ),
+        BottomNavigationBar(
+          currentIndex: 0,
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.home), 
+            label: 'Home'),
+            BottomNavigationBarItem(icon: Icon(Icons.home), 
+            label: 'Home'),
+            BottomNavigationBarItem(icon: Icon(Icons.home), 
+            label: 'Home'),
+          ],
+        )
+        ],
+      ),
+    );
     
   }
 }

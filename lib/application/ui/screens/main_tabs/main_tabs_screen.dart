@@ -13,14 +13,16 @@ class MainTabsScreen extends StatelessWidget {
           child: Container(),
         ),
         BottomNavigationBar(
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
           currentIndex: 0,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), 
-            label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), 
-            label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), 
-            label: 'Home'),
+            BottomNavigationBarItem(icon: Image.asset('assets/icons/1/tabbar_bag.png'), 
+            label: ''),
+            BottomNavigationBarItem(icon: Image.asset('assets/icons/1/tabbar_heart.png'), 
+            label: ''),
+            BottomNavigationBarItem(icon: Image.asset('assets/icons/1/tabbar_person.png'), 
+            label: ''),
           ],
         )
         ],

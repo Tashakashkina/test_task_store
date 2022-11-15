@@ -77,6 +77,16 @@ flutter:
     - assets/icons/2/tabbar_person.png
     - assets/icons/3/tabbar_person.png
     - assets/icons/4/tabbar_person.png
+    - assets/icons/1/tabbar_ellipse.png
+    - assets/icons/1.5/tabbar_ellipse.png
+    - assets/icons/2/tabbar_ellipse.png
+    - assets/icons/3/tabbar_ellipse.png
+    - assets/icons/4/tabbar_ellipse.png
+    - assets/icons/1/tabbar_explorer.png
+    - assets/icons/1.5/tabbar_explorer.png
+    - assets/icons/2/tabbar_explorer.png
+    - assets/icons/3/tabbar_explorer.png
+    - assets/icons/4/tabbar_explorer.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

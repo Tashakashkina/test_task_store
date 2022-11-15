@@ -10,10 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'E-Store',
       theme: AppTheme.light,
       routes: mainNavigation.routes,
       onGenerateRoute: mainNavigation.onGenerateRoute,
+      
     );
     
   }

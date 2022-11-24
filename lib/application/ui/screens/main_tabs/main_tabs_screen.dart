@@ -1,7 +1,7 @@
+import 'package:e_commerce/application/ui/screens/main_tabs/schedule_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'main_tabs_view_model.dart';
-import 'package:e_commerce/application/ui/navigation/main_navigation.dart';
 
 class MainTabsScreen extends StatelessWidget {
   const MainTabsScreen ({Key? key}) : super(key: key);
@@ -28,6 +28,7 @@ class _BodyWidget extends StatelessWidget {
   return IndexedStack(
         index: currentIndex,
         children: [
+           scheduleWidget(),
         Center(
           child: Text('1')),
           Center(
